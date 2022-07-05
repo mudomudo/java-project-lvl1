@@ -9,6 +9,7 @@ public class App {
         String gamesList =
                 "1 - Greet\n"
                         + "2 - Parity\n"
+                        + "3 - Calc\n"
                         + "0 - Exit";
 
         System.out.println(gamesList);
@@ -23,6 +24,9 @@ public class App {
                 break;
             case "2":
                 Parity.checkParity();
+                break;
+            case "3":
+                Calc.initCalc();
                 break;
             default:
                 break;

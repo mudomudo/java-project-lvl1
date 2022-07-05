@@ -10,10 +10,10 @@ public class Utils {
         return name;
     }
 
-    public static int getRandomNum() {
-        int point = 100;
+    public static int getRandomNum(int limit) {
 
-        return (int) (Math.random() * point);
+
+        return (int) (Math.random() * limit);
     }
 
 }
