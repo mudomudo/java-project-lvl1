@@ -1,6 +1,10 @@
 package hexlet.code;
 
 
+import hexlet.code.games.Calc;
+import hexlet.code.games.GDC;
+import hexlet.code.games.Greet;
+import hexlet.code.games.Parity;
 import hexlet.code.utils.Utils;
 
 public class App {
@@ -10,6 +14,7 @@ public class App {
                 "1 - Greet\n"
                         + "2 - Parity\n"
                         + "3 - Calc\n"
+                        + "4 - GDC\n"
                         + "0 - Exit";
 
         System.out.println(gamesList);
@@ -28,7 +33,10 @@ public class App {
             case "3":
                 Calc.initCalc();
                 break;
+            case "4":
+                GDC.initGDC();
             default:
+                //System.out.println("There isn't a game with that number.");
                 break;
         }
 

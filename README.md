@@ -6,3 +6,6 @@ Demo of parity process:
  
 Demo of calc process:
  https://asciinema.org/a/nPRBg3xjRAgD7H10oL0IejCAU
+
+Demo of GCD process: 
+ https://asciinema.org/a/ezBahHuOpU1zgGUZkajX1chYn

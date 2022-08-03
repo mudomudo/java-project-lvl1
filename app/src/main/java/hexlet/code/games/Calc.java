@@ -1,17 +1,19 @@
-package hexlet.code;
+package hexlet.code.games;
 
+import hexlet.code.engine.Consts;
 import hexlet.code.utils.Utils;
+
+import static hexlet.code.engine.Consts.limitOfNumbers;
 
 public class Calc {
     private static char[] operations = {'*', '+', '-'};
-    private static int endCountOfRightAnswers = 3;
 
     public static void initCalc() {
         String name = Greet.greetings();
         int numberOfTry = 0;
-        while (numberOfTry != endCountOfRightAnswers) {
-            int num1 = Utils.getRandomNum(100);
-            int num2 = Utils.getRandomNum(100);
+        while (numberOfTry != Consts.endCountOfRightAnswers) {
+            int num1 = Utils.getRandomNum(limitOfNumbers);
+            int num2 = Utils.getRandomNum(limitOfNumbers);
             int indexOfOperation = Utils.getRandomNum(2);
             char operation = operations[indexOfOperation];
 
@@ -44,7 +46,7 @@ public class Calc {
                 System.out.println("Let's try again, " + name + "!");
                 break;
             }
-            if (numberOfTry == 3) {
+            if (numberOfTry == Consts.endCountOfRightAnswers) {
                 System.out.println("Congratulations, " + name + "!");
             }
 
