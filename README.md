@@ -9,3 +9,6 @@ Demo of calc process:
 
 Demo of GCD process: 
  https://asciinema.org/a/ezBahHuOpU1zgGUZkajX1chYn
+
+Demo of Progression process:
+ https://asciinema.org/a/JoB87qG5EcLJHRbdvJRgIOgOm
