@@ -13,6 +13,7 @@ public class App {
                         + "3 - Calc\n"
                         + "4 - GDC\n"
                         + "5 - Progression\n"
+                        + "6 - Prime\n"
                         + "0 - Exit";
 
         System.out.println(gamesList);
@@ -36,6 +37,9 @@ public class App {
                 break;
             case "5":
                 Progression.showProgression();
+                break;
+            case "6":
+                Prime.initPrime();
                 break;
             default:
                 System.out.println("There isn't a game with that number.");

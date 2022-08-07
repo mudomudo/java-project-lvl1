@@ -12,3 +12,6 @@ Demo of GCD process:
 
 Demo of Progression process:
  https://asciinema.org/a/JoB87qG5EcLJHRbdvJRgIOgOm
+
+Demo of Prime process:
+ https://asciinema.org/a/I6HsKipv8GM2Znp5obgG589Mh
