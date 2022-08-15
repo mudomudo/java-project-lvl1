@@ -1,3 +1,3 @@
 # Bash
 run-dist: # run application
-	./app/build/install/app/bin/app
+	./app/build/install/bin/app
